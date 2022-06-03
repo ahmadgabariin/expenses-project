@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+#div-add-expense {
+    display: grid;
+    row-gap: 4vh;
+    margin: 1vw;
+    width: 20%;
+}
+
+#container {
+    display: grid;
+    justify-items: center;
+}
+
+#div-title {
+    display: flex;
+    justify-content: center;
+}

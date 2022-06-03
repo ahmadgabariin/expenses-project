@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  type="text/css" href="style.css" />
+</head>
+<body>
+    
+    <div id="container">
+        <div id="div-add-expense">
+            <div id="div-title">
+                <h1>Add an expense</h1>
+            </div>
+            <input type="text" placeholder="Item Name" />
+            <input type="number"  placeholder="Amount"/>
+            <select name="cars" id="cars">
+                <option value="fun">Fun</option>
+                <option value="food">Food</option>
+                <option value="rent">Rent</option>
+                <option value="bills">Bills</option>
+                <option value="misc">Misc</option>
+              </select>
+            <input type="date" />
+            <button id="btn-add-expense">Add</button>
+
+        </div>
+    </div>
+</body>
+<script src="jquery/dist/jquery.js"></script>
+<script src="ExpenseManager .js"></script>
+<script src="Renderer.js"></script>
+<script src="Expense.js"></script>
+<script src="main.js"></script>
+</html>
